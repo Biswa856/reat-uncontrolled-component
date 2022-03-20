@@ -6,8 +6,6 @@ export default function App() {
   const name = React.useRef();
   const[naam,setNaam]=React.useState();
 
-
-
   const submit =(e)=>{
 
 setNaam(name.current.value)
